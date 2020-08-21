@@ -1,0 +1,45 @@
+/* Add application styles & imports to this file! */
+#containers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#containers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#containers tr:nth-child(even){background-color: #f2f2f2;}
+
+#containers tr:hover {background-color: #ddd;}
+
+#containers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button {
+  background-color: rgb(86, 76, 175); /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+input[type=search] {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
